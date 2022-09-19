@@ -1,0 +1,729 @@
+
+.top {
+  background-color: #222020;
+}
+
+.mini-1 {
+  padding-left: 120px;
+}
+
+.mini-2 {
+  padding-left: 480px;
+}
+
+.mini-1, .mini-2 {
+  display: inline-block;
+}
+
+
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.header img {
+width: 150px;
+}
+
+.logo-part p {
+    width: 270px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.logo-part {
+    padding-left: 90px;
+}
+
+.header img, .logo-part p {
+    display: inline-block;
+}
+
+.logo-part, .info {
+    display: inline-block;
+}
+
+.info {
+    padding-left: 40px;
+}
+
+.fnt1, .fnt2, .fnt3 {
+    display:inline-block;
+    padding-left: 90px;
+}
+
+.menu-1 a {
+     width:auto;
+     height: 25px;
+     color: #222020;
+     background-color: transparent;
+     padding: 15px 15px 15px;
+     text-decoration: none;
+     cursor: pointer;
+   }
+
+   .bar-1 {
+    width:auto;
+    position: fixed;
+    box-shadow: 4px 4px 8px 0 rgba(1px,0,0,0.4);
+    transition: top 1s;
+    transition-duration: 0.5ms;
+    display: inline-block;
+    z-index: 999;
+  }
+
+.menu-1 a:hover {
+    background-color:#d2151e;
+    color: azure;
+    left: 0;
+    margin-left: 0;
+    transition-duration: 1s;
+    transition: top 1s;
+}
+     
+  .menu-1 {
+    width: 1510px;
+    height: auto;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 4px;
+    padding-bottom:20px;
+}
+
+.carousel {
+    width: 100%;
+}
+
+
+.carousel-caption h3 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.carousel p {
+    color: rgb(90, 88, 88);
+    font-size: 15px;
+}
+
+.carousel-item img{
+    background-image: url("web images/hydro-line.png");
+}
+
+.row-1 {
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+}
+
+.row-1 p {
+    font-size: 18px;
+    font-weight:300;
+}
+
+.row-1 h3 {
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 25px;
+    color: #494949;
+}
+.sales {
+    padding-bottom: 60px;
+}
+
+.row-2 {
+background-image: url("web images/hydro-slide3.jpg");
+background-repeat: no-repeat;
+background-size: 100% 450px;
+width: auto;
+height: auto;
+padding-left: 140px;
+}
+
+.row-2 img {
+    padding-left: 190px;
+}
+
+
+.mail p {
+font-size: 35px;
+color: #d2151e;
+padding-left: 60px;
+
+}
+
+.mail, .buttons {
+
+  display: inline-block;
+
+}
+
+.mail i, .mail p {
+    display: inline-block;
+}
+
+
+
+.buttons {
+  padding-left: 10px;
+}
+
+.btn-hover {
+    width: 130px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    height: 42px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 4px;
+    transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #e01a1a, #7010095b, #800808, #f50606);
+    box-shadow: 0 4px 15px 0 rgba(22, 19, 29, 0.75);
+}
+
+.row-part1, .row-part2 {
+    display: inline-block;
+}
+
+.row-3 {
+    padding-top: 360px;
+}
+
+.oil {
+    width: 245px;
+    height: 245px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+.oil img {
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;  
+}
+
+  .oil-inner {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  
+.ship {
+    width: 245px;
+    height: 245px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+.ship img {
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;  
+}
+
+  .ship-inner {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  .transport {
+    width: 245px;
+    height: 245px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+.transport img {
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 28px;  
+}
+
+  .transport-inner {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  .crain {
+    width: 245px;
+    height: 245px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+.crain img {
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 13px;  
+}
+
+  .crain-inner {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  .box-1 {
+      padding-left: 95px;
+  }
+
+  .oil, .ship, .transport, .crain {
+      display: inline-block;
+  }
+
+  .industry {
+    width: 245px;
+    height: 245px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+.industry img {
+    padding-top: 28px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 18px;  
+}
+
+  .industry-inner {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  .truck {
+    width: 245px;
+    height: 245px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+.truck img {
+    padding-top: 75px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 35px;  
+}
+
+  .truck-inner {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  .plc {
+    width: 245px;
+    height: 245px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+.plc img {
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;  
+}
+
+  .plc-inner {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  .design {
+    width: 245px;
+    height: 245px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+.design img {
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;  
+}
+
+  .design-inner {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  .box-2 {
+      padding-left: 95px;
+  }
+
+  .industry, .truck, .plc, .design {
+      display: inline-block;
+  }
+
+  .testimotionals {
+      width:280px;
+      margin-left:0px;
+      margin-top:50px
+      
+    }
+    
+    
+    .testimotionals .card-1 {
+      
+      position:relative;
+      overflow:hidden;
+      width:350px;
+      margin:0 auto;
+      background-color: transparent;
+      padding:20px;
+      box-sizing:border-box;
+      text-align:center;
+      box-shadow:0 10px 40px rgba(0,0,0,.5)
+    }
+    .testimotionals .card-1 .layer {
+      z-index:1;
+      position:absolute;
+      top:calc(100% - 2px);
+      height:100%;
+      width:100%;
+      left:0;
+      background:linear-gradient(to left , red, darkred);
+      transition:0.5s;
+      
+    }
+    
+    .testimotionals .card-1 .content {
+      z-index:2; 
+      position:relative;
+    }
+    
+    .testimotionals .card-1:hover  .layer{
+      top:0;
+    }
+    
+    .testimotionals .card-1 {
+      font-size:14px;
+      line-height:24px;
+      color:#fff;
+      
+    }
+    .testimotionals .card-1 .content .image {
+      width:100px; height:100px;
+      margin:0 auto;
+      overflow:hidden;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+      
+    }
+
+    .card-part1, .card-part2, .card-part3 {
+        display: inline-block;
+    }
+
+    .card-part {
+        padding-bottom: 40px;
+    }
+
+    .card-1 {
+        background-color: transparent;
+    }
+
+.para {
+    width: 440px;
+} 
+
+.para h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.para, .card-part {
+   display: inline-flex;
+}
+
+.demo {
+    background-image:url("web images/hydro-portable_compactor.jpg");
+    padding-left: 150px;
+}
+
+.section-1 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.section-1 h3 {
+
+font-size: 35px;
+font-weight: 500;
+
+}
+
+.section-1 p {
+    padding-top: 10px;
+    font-size: 18px;
+    color: #494949;
+    line-height: 28px;
+}
+
+#owl-demo .item {
+  margin: 3px;
+}
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.last-row {
+  width: 100%;
+  height: 420px;
+  background-image: url("web images/map-bg.jpeg");
+  padding-left: 80px;
+}
+  
+.card-1 {
+  box-shadow: 1 4px 8px 0 rgb(250, 222, 222);
+  transition: 0.3s;
+  width: 450px;
+  height: 380px;
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-top: 20px;
+  color: #fff;
+  background-color: transparent;
+}
+
+.card-1 img {
+border-radius: 140px;
+}
+
+.card-1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-1 img {
+  border-radius: 100px;
+}
+
+img, p {
+display: inline-flex;
+}
+
+.world {
+padding-bottom: 24px;
+}
+
+.container-1 {
+  padding: 2px 16px;
+}
+    
+.card-1 img, .card-1 h4 {
+  display: inline-grid;
+}
+    
+.lrow-1, .lrow-2, .lrow-3 {
+  display: inline-block;
+}
+
+.footer {
+  background-color: #222020;
+  color:  #b0b0b0;
+}
+
+
+.head-footer img {
+ 
+  width: 150px;
+
+}
+
+.head-footer {
+  padding-top: 40px;
+  padding-left: 220px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+
+}
+
+.head-footer h6 {
+  padding-left: 200px;
+}
+
+.font {
+  padding-left: 200px;
+}
+
+.head-footer img, .head-footer p, .head-footer h6, .font {
+  display: inline-block;
+}
+
+.foot-row1, .foot-row2 {
+  display: inline-block;
+  list-style-type:none;
+}
+
+#pi, #ps {
+  display: inline-block;
+}
+
+.foot-1, .foot-2, .foot-3 {
+  display: inline-block;
+}
+
+.foot-1 {
+  padding-top: 40px;
+  padding-left: 110px;
+  padding-bottom: 40px;
+}
+
+.foot-2 {
+  padding-top: 40px;
+  padding-left: 90px;
+  padding-bottom: 40px;
+}
+
+.foot-3 {
+  padding-top: 40px;
+  padding-left: 90px;
+  padding-bottom: 40px;
+}
+
+@property --num-1 {
+  syntax: "<integer>";
+  initial-value: 333;
+  inherits: false;
+}
+
+.count-1 {
+  animation: counter 5s  alternate ease-in-out;
+  counter-reset: num var(--num-1);
+  font: 800 40px system-ui;
+  padding: 2rem;
+}
+.count-1::after {
+  content: counter(num);
+}
+
+@keyframes counter {
+  from {
+    --num-1: 0;
+  }
+  to {
+    --num-1: 333;
+  }
+}
+
+@property --num-2 {
+  syntax: "<integer>";
+  initial-value: 250;
+  inherits: false;
+}
+
+.count-2 {
+  animation: counter 5s  alternate ease-in-out;
+  counter-reset: num var(--num-2);
+  font: 800 40px system-ui;
+  padding: 2rem;
+}
+.count-2::after {
+  content: counter(num);
+}
+
+@keyframes counter {
+  from {
+    --num-2: 0;
+  }
+  to {
+    --num-2: 250;
+  }
+}
+
+@property --num-3 {
+  syntax: "<integer>";
+  initial-value: 149;
+  inherits: false;
+}
+
+.count-3 {
+  animation: counter 5s  alternate ease-in-out;
+  counter-reset: num var(--num-3);
+  font: 800 40px system-ui;
+  padding: 2rem;
+}
+.count-3::after {
+  content: counter(num);
+}
+
+@keyframes counter {
+  from {
+    --num-3: 0;
+  }
+  to {
+    --num-3: 149;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
